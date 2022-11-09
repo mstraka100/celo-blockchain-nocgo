@@ -29,7 +29,6 @@ import (
 
 	"github.com/mstraka100/celo-blockchain-small/common"
 	"github.com/mstraka100/celo-blockchain-small/common/hexutil"
-	//blscrypto "github.com/mstraka100/celo-blockchain-small/crypto/bls"
 	"github.com/mstraka100/celo-blockchain-small/rlp"
 )
 

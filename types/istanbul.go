@@ -23,7 +23,6 @@ import (
 	"math/big"
 
 	"github.com/mstraka100/celo-blockchain-small/common"
-	//blscrypto "github.com/mstraka100/celo-blockchain-small/crypto/bls"
 	"github.com/mstraka100/celo-blockchain-small/rlp"
 )
 
