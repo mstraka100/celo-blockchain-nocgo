@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common/math"
+	"github.com/mstraka100/celo-blockchain-small/common/math"
 )
 
 func TestStreamKind(t *testing.T) {

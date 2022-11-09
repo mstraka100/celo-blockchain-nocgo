@@ -9,10 +9,10 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/celo-org/celo-blockchain/common"
+	"github.com/mstraka100/celo-blockchain-small/common"
 
-	"github.com/celo-org/celo-blockchain/common/hexutil"
-	"github.com/celo-org/celo-blockchain/crypto"
+	"github.com/mstraka100/celo-blockchain-small/common/hexutil"
+	"github.com/mstraka100/celo-blockchain-small/crypto"
 	"github.com/celo-org/celo-bls-go/bls"
 )
 
