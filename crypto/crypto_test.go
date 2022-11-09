@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"testing"
 
-	"example.com/cbs/common"
-	"example.com/cbs/common/hexutil"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/common/hexutil"
 )
 
 var testAddrHex = "970e8128ab834e8eac17ab8e3812f010678cf791"

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math/big"
 
-	"example.com/cbs/common"
+	"github.com/mstraka100/celo-blockchain-small/common"
 )
 
 func bigFromHex(hex string) *big.Int {

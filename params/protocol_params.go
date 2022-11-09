@@ -17,10 +17,10 @@
 package params
 
 import (
-	"example.com/cbs/common"
-	"example.com/cbs/common/hexutil"
-	"example.com/cbs/common/math"
-	"example.com/cbs/crypto"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/common/hexutil"
+	"github.com/mstraka100/celo-blockchain-small/common/math"
+	"github.com/mstraka100/celo-blockchain-small/crypto"
 )
 
 const (

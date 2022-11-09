@@ -24,8 +24,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"example.com/cbs/common/math"
-	"example.com/cbs/crypto/secp256k1"
+	"github.com/mstraka100/celo-blockchain-small/common/math"
+	"github.com/mstraka100/celo-blockchain-small/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

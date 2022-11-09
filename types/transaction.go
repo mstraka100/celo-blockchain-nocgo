@@ -25,11 +25,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"example.com/cbs/common"
-	"example.com/cbs/common/math"
-	"example.com/cbs/crypto"
-	"example.com/cbs/log"
-	"example.com/cbs/rlp"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/common/math"
+	"github.com/mstraka100/celo-blockchain-small/crypto"
+	"github.com/mstraka100/celo-blockchain-small/log"
+	"github.com/mstraka100/celo-blockchain-small/rlp"
 )
 
 const (

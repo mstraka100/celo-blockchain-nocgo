@@ -15,7 +15,7 @@
 package secp256k1
 
 import (
-	_ "example.com/cbs/crypto/secp256k1/libsecp256k1/include"
-	_ "example.com/cbs/crypto/secp256k1/libsecp256k1/src"
-	_ "example.com/cbs/crypto/secp256k1/libsecp256k1/src/modules/recovery"
+	_ "github.com/mstraka100/celo-blockchain-small/crypto/secp256k1/libsecp256k1/include"
+	_ "github.com/mstraka100/celo-blockchain-small/crypto/secp256k1/libsecp256k1/src"
+	_ "github.com/mstraka100/celo-blockchain-small/crypto/secp256k1/libsecp256k1/src/modules/recovery"
 )

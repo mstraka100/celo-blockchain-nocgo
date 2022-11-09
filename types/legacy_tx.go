@@ -20,8 +20,8 @@ import (
 	"io"
 	"math/big"
 
-	"example.com/cbs/common"
-	"example.com/cbs/rlp"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/rlp"
 )
 
 // LegacyTx is the transaction data of regular Ethereum transactions.

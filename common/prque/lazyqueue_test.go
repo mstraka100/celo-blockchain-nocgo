@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"example.com/cbs/common/mclock"
+	"github.com/mstraka100/celo-blockchain-small/common/mclock"
 )
 
 const (

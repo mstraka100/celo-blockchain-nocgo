@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"example.com/cbs/common"
+	"github.com/mstraka100/celo-blockchain-small/common"
 )
 
 // MarshalJSON marshals as JSON.

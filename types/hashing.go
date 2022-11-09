@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"sync"
 
-	"example.com/cbs/common"
-	"example.com/cbs/crypto"
-	"example.com/cbs/rlp"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/crypto"
+	"github.com/mstraka100/celo-blockchain-small/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

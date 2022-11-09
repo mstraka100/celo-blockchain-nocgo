@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"example.com/cbs/common"
-	"example.com/cbs/crypto"
-	"example.com/cbs/params"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/crypto"
+	"github.com/mstraka100/celo-blockchain-small/params"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")

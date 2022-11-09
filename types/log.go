@@ -19,9 +19,9 @@ package types
 import (
 	"io"
 
-	"example.com/cbs/common"
-	"example.com/cbs/common/hexutil"
-	"example.com/cbs/rlp"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/common/hexutil"
+	"github.com/mstraka100/celo-blockchain-small/rlp"
 )
 
 //go:generate gencodec -type Log -field-override logMarshaling -out gen_log_json.go

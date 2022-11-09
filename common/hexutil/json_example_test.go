@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"example.com/cbs/common/hexutil"
+	"github.com/mstraka100/celo-blockchain-small/common/hexutil"
 )
 
 type MyType [5]byte

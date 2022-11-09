@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"example.com/cbs/common"
-	"example.com/cbs/crypto"
-	"example.com/cbs/rlp"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/crypto"
+	"github.com/mstraka100/celo-blockchain-small/rlp"
 )
 
 // The values in those tests are from the Transaction Tests

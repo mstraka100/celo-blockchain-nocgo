@@ -20,7 +20,7 @@ import (
 	"container/heap"
 	"time"
 
-	"example.com/cbs/common/mclock"
+	"github.com/mstraka100/celo-blockchain-small/common/mclock"
 )
 
 // LazyQueue is a priority queue data structure where priorities can change over

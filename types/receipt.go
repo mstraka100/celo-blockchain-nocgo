@@ -24,11 +24,11 @@ import (
 	"math/big"
 	"unsafe"
 
-	"example.com/cbs/common"
-	"example.com/cbs/common/hexutil"
-	"example.com/cbs/crypto"
-	"example.com/cbs/params"
-	"example.com/cbs/rlp"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/common/hexutil"
+	"github.com/mstraka100/celo-blockchain-small/crypto"
+	"github.com/mstraka100/celo-blockchain-small/params"
+	"github.com/mstraka100/celo-blockchain-small/rlp"
 )
 
 //go:generate gencodec -type Receipt -field-override receiptMarshaling -out gen_receipt_json.go

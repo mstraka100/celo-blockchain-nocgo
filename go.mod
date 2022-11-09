@@ -1,4 +1,4 @@
-module example.com/cbs
+module github.com/mstraka100/celo-blockchain-small
 
 go 1.16
 

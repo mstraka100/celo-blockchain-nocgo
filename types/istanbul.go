@@ -22,9 +22,9 @@ import (
 	"io"
 	"math/big"
 
-	"example.com/cbs/common"
-	//blscrypto "example.com/cbs/crypto/bls"
-	"example.com/cbs/rlp"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	//blscrypto "github.com/mstraka100/celo-blockchain-small/crypto/bls"
+	"github.com/mstraka100/celo-blockchain-small/rlp"
 )
 
 const (

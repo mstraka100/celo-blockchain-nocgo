@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"example.com/cbs/common"
+	"github.com/mstraka100/celo-blockchain-small/common"
 )
 
 type CeloDynamicFeeTx struct {

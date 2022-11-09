@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"strings"
 
-	"example.com/cbs/common/hexutil"
+	"github.com/mstraka100/celo-blockchain-small/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

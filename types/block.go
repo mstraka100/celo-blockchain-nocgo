@@ -27,10 +27,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"example.com/cbs/common"
-	"example.com/cbs/common/hexutil"
-	//blscrypto "example.com/cbs/crypto/bls"
-	"example.com/cbs/rlp"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/common/hexutil"
+	//blscrypto "github.com/mstraka100/celo-blockchain-small/crypto/bls"
+	"github.com/mstraka100/celo-blockchain-small/rlp"
 )
 
 var (

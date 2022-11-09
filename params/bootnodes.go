@@ -16,7 +16,7 @@
 
 package params
 
-import "example.com/cbs/common"
+import "github.com/mstraka100/celo-blockchain-small/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Ethereum network.

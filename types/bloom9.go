@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"example.com/cbs/common/hexutil"
-	"example.com/cbs/crypto"
+	"github.com/mstraka100/celo-blockchain-small/common/hexutil"
+	"github.com/mstraka100/celo-blockchain-small/crypto"
 )
 
 type bytesBacked interface {

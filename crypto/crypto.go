@@ -30,9 +30,9 @@ import (
 	"math/big"
 	"os"
 
-	"example.com/cbs/common"
-	"example.com/cbs/common/math"
-	"example.com/cbs/rlp"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/common/math"
+	"github.com/mstraka100/celo-blockchain-small/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

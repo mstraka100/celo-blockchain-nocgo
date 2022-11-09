@@ -21,8 +21,8 @@ import (
 	"math/big"
 	"testing"
 
-	"example.com/cbs/common"
-	"example.com/cbs/crypto"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/crypto"
 )
 
 func TestBloom(t *testing.T) {

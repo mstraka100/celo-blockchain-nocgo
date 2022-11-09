@@ -24,12 +24,12 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"example.com/cbs/common"
-	"example.com/cbs/common/hexutil"
-	"example.com/cbs/core/types"
-	"example.com/cbs/crypto"
-	"example.com/cbs/rlp"
-	"example.com/cbs/trie"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/common/hexutil"
+	"github.com/mstraka100/celo-blockchain-small/core/types"
+	"github.com/mstraka100/celo-blockchain-small/crypto"
+	"github.com/mstraka100/celo-blockchain-small/rlp"
+	"github.com/mstraka100/celo-blockchain-small/trie"
 )
 
 func TestDeriveSha(t *testing.T) {

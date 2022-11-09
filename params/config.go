@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"example.com/cbs/common"
+	"github.com/mstraka100/celo-blockchain-small/common"
 	"golang.org/x/crypto/sha3"
 )
 

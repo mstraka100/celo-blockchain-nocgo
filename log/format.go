@@ -24,7 +24,7 @@ const (
 
 // locationTrims are trimmed for display to avoid unwieldy log lines.
 var locationTrims = []string{
-	"example.com/cbs/",
+	"github.com/mstraka100/celo-blockchain-small/",
 }
 
 // PrintOrigins sets or unsets log location (file:line) printing for terminal

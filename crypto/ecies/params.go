@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "example.com/cbs/crypto"
+	ethcrypto "github.com/mstraka100/celo-blockchain-small/crypto"
 )
 
 var (

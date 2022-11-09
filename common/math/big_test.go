@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"example.com/cbs/common"
+	"github.com/mstraka100/celo-blockchain-small/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

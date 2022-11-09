@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"example.com/cbs/common"
-	"example.com/cbs/common/hexutil"
+	"github.com/mstraka100/celo-blockchain-small/common"
+	"github.com/mstraka100/celo-blockchain-small/common/hexutil"
 )
 
 var _ = (*headerMarshaling)(nil)
