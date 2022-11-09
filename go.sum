@@ -1,17 +1,3 @@
-github.com/celo-org/celo-bls-go v0.6.4 h1:zBf6pEr9k64gaO0VSYnDfLCBmrxDigc4yUaDvWub5G8=
-github.com/celo-org/celo-bls-go v0.6.4/go.mod h1:apSlSDPoXIdGseCS4Z2AMrhO5B1xpIVTXYpfv/uRd04=
-github.com/celo-org/celo-bls-go-android v0.6.3 h1:mCtzKM99OCfsSu/i9A4+BaUJhEfYSEWPR0wHUu4YlO0=
-github.com/celo-org/celo-bls-go-android v0.6.3/go.mod h1:N8rOFwyCS3Ff9p45/rLfdLWfoyFwOvjVQ6F+VKbmIbU=
-github.com/celo-org/celo-bls-go-ios v0.6.3 h1:8t08eq924VlxjTCKwzRWOlULRWlhqNmF+ok7pn4Unjg=
-github.com/celo-org/celo-bls-go-ios v0.6.3/go.mod h1:huG1qfXZVMDkFmEZo4UYOAu46EEzYrR8brE4flPul5c=
-github.com/celo-org/celo-bls-go-linux v0.6.3 h1:9Evpz1ix4v7tswiJ89+ED3m8sYQ6PG9T0ZogHrvz0xE=
-github.com/celo-org/celo-bls-go-linux v0.6.3/go.mod h1:E6fEQ+whLgMqEToE1e3FWf/9+ikG+wNE5ik7z5Dxgbc=
-github.com/celo-org/celo-bls-go-macos v0.6.3 h1:+sEiFYoqdlDVO50LmONBSzu/PxCP0aP8fiGjWuAvBzg=
-github.com/celo-org/celo-bls-go-macos v0.6.3/go.mod h1:RC05VQ2cvF8vMc0tpLc7pfp8oSKrrGcI+o5LLXGequk=
-github.com/celo-org/celo-bls-go-other v0.6.3 h1:DTVLfg/ZNizB5Wnbxq0mYh3VXsDtD1lZFvd0Ye4xv7o=
-github.com/celo-org/celo-bls-go-other v0.6.3/go.mod h1:1xEWTbCXUrDx3Z6R9YlLi1zFNNn1oMMnEcpLbcW+q74=
-github.com/celo-org/celo-bls-go-windows v0.6.3 h1:yrHZ+1EjONf++u5QEUseebImiD23Rv2GEcoYfPxYhuw=
-github.com/celo-org/celo-bls-go-windows v0.6.3/go.mod h1:8bRJbLcHREIAWn+5iZM3u8rGPBsWepp9BdF3SexisuM=
 github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
 github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5PlCu98SY8svDHJxuZscDgtXS6KTTbou5AhLI=
 github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1/go.mod h1:Q3SI9o4m/ZMnBNeIyt5eFwwo7qiLfzFZmjNmxjkiQlU=

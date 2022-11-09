@@ -3,7 +3,6 @@ module github.com/mstraka100/celo-blockchain-small
 go 1.16
 
 require (
-	github.com/celo-org/celo-bls-go v0.6.4
 	github.com/davecgh/go-spew v1.1.1
 	github.com/go-stack/stack v1.8.1
 	github.com/google/gofuzz v1.2.0
