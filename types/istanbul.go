@@ -23,13 +23,17 @@ import (
 	"math/big"
 
 	"example.com/cbs/common"
-	blscrypto "example.com/cbs/crypto/bls"
+	//blscrypto "example.com/cbs/crypto/bls"
 	"example.com/cbs/rlp"
+)
+
+const (
+	PUBLICKEYBYTES = 96
 )
 
 var (
 	IstanbulExtraVanity       = 32                       // Fixed number of extra-data bytes reserved for validator vanity
-	IstanbulExtraBlsSignature = blscrypto.SIGNATUREBYTES // Fixed number of extra-data bytes reserved for validator seal on the current block
+	IstanbulExtraBlsSignature = 48//blscrypto.SIGNATUREBYTES // Fixed number of extra-data bytes reserved for validator seal on the current block
 	IstanbulExtraSeal         = 65                       // Fixed number of extra-data bytes reserved for validator seal
 
 	// ErrInvalidIstanbulHeaderExtra is returned if the length of extra-data is less than 32 bytes
@@ -85,7 +89,7 @@ type IstanbulExtra struct {
 	// AddedValidators are the validators that have been added in the block
 	AddedValidators []common.Address
 	// AddedValidatorsPublicKeys are the BLS public keys for the validators added in the block
-	AddedValidatorsPublicKeys []blscrypto.SerializedPublicKey
+	AddedValidatorsPublicKeys [PUBLICKEYBYTES]byte //[]blscrypto.SerializedPublicKey
 	// RemovedValidators is a bitmap having an active bit for each removed validator in the block
 	RemovedValidators *big.Int
 	// Seal is an ECDSA signature by the proposer
@@ -112,7 +116,7 @@ func (ist *IstanbulExtra) EncodeRLP(w io.Writer) error {
 func (ist *IstanbulExtra) DecodeRLP(s *rlp.Stream) error {
 	var istanbulExtra struct {
 		AddedValidators           []common.Address
-		AddedValidatorsPublicKeys []blscrypto.SerializedPublicKey
+		AddedValidatorsPublicKeys [PUBLICKEYBYTES]byte//[]blscrypto.SerializedPublicKey
 		RemovedValidators         *big.Int
 		Seal                      []byte
 		AggregatedSeal            IstanbulAggregatedSeal
